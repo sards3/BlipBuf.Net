@@ -9,6 +9,18 @@
     <Title>BlipBuf.Net</Title>
     <Description>A .NET port of blip_buf by Shay Green (aka blargg). BlipBuf.Net enables easy high-quality resampling of PSG-like audio.</Description>
     <PackageTags>audio;resampling;emulation</PackageTags>
+    <Authors>sards3</Authors>
+    <Company />
+    <PackageProjectUrl>https://github.com/sards3/BlipBuf.Net</PackageProjectUrl>
+    <PackageReadmeFile>readme.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/sards3/BlipBuf.Net</RepositoryUrl>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="readme.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
