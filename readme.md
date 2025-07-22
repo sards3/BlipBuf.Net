@@ -18,7 +18,7 @@ Install-Package BlipBuf.Net
 
 #### Use BlipBuf.Net
 ```C#
-using BlipBuf.Net;
+using BlipBufDotNet;
 
 double clockRate = 1000000.0; // Input clock rate
 double sampleRate = 48000.0; // Output sample rate
