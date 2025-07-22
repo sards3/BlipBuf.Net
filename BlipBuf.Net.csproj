@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>BlipBuf.Net</Title>
+    <Description>A .NET port of blip_buf by Shay Green (aka blargg). BlipBuf.Net enables easy high-quality resampling of PSG-like audio.</Description>
+    <PackageTags>audio;resampling;emulation</PackageTags>
+  </PropertyGroup>
+
+</Project>
