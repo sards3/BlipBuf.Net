@@ -14,6 +14,7 @@
     <PackageProjectUrl>https://github.com/sards3/BlipBuf.Net</PackageProjectUrl>
     <PackageReadmeFile>readme.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/sards3/BlipBuf.Net</RepositoryUrl>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>

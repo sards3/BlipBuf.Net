@@ -212,10 +212,11 @@ public class BlipBuf
     {
         if (sampleCount < 0) throw new ArgumentOutOfRangeException(nameof(sampleCount));
 
+        if (sampleCount > SamplesAvailable)
+            sampleCount = SamplesAvailable;
+
         if (sampleCount == 0)
             return 0;
-        else if (sampleCount > SamplesAvailable)
-            sampleCount = SamplesAvailable;
 
         int step = stereo ? 2 : 1;
         int sum = integrator;
@@ -266,10 +267,11 @@ public class BlipBuf
     {
         if (sampleCount < 0) throw new ArgumentOutOfRangeException(nameof(sampleCount));
 
+        if (sampleCount > SamplesAvailable)
+            sampleCount = SamplesAvailable;
+
         if (sampleCount == 0)
             return 0;
-        else if (sampleCount > SamplesAvailable)
-            sampleCount = SamplesAvailable;
 
         int step = stereo ? 2 : 1;
         int sum = integrator;
